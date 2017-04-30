@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Aharon Vishinsky Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="JavaScript1.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="row" style="padding:5px 0">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-md-offset-4 col-sm-offset-3 col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover" id="img1">
+                                <!--<img src="Picture/beawesome-wallpaper-3840x2160.jpg" />-->
+                            </div>
+                            <div class="user" id="img2">
+                                <img class="img-circle" src="Picture/Me.jpg" />
+                            </div>
+                            <div class="content text-center">
+                                <div class="main">
+                                    <h3 class="name">Aharon  Vishisnky</h3>
+                                    <p class="profession">junior developer</p>
+                                    <h5>Passion to learn new things <span class="glyphicon glyphicon-ok" aria-hidden="true" style="color:green"></span></h5>
+                                    <h5>Curiosity almost about everything <span class="glyphicon glyphicon-ok" aria-hidden="true" style="color:green"></span></h5>
+                                    <h5>Creativity and thinking outside the box <span class="glyphicon glyphicon-ok" aria-hidden="true" style="color:green"></span></h5>
+                                    <br />
+                                    <h5 style="border-bottom:1px solid;font-weight:bold">Skills and expertise</h5>
+                                    <h5 style="color:rebeccapurple">ASP.NET MVC , Entity framework ,C#/.NET, SQL .</h5>
+                                    <h5 style="color:darkblue">AngularJS , jQuery , Bootstrap .</h5>
+                                    <h5 style="color:black">Android , Java .</h5>                                    
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+
+                        </div> <!-- end front panel -->
+                        <div class="back" style="display:inline-block;">
+                            <h2 style="color:red;text-align:center;font-family: 'Rancho', cursive;">Some Of My Projects</h2>
+                            <!-- 1st row verticaly centered text in the square columns -->
+
+                            <div>
+                                <button class="square" id="Mvc" style="background-color:#F50057" data-toggle="modal" data-target="#MvcModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        Mvc
+                                    </div>
+                                </button>
+                                <button class="square" id="Jquery" style="background-color:#4CAF50" data-toggle="modal" data-target="#JqueryModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        Jquery
+                                    </div>
+                                </button>
+                                <button class="square" id="C#" style="background-color:#FF9800" data-toggle="modal" data-target="#CModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        C#
+                                    </div>
+                                </button>
+
+                                <!-- 2nd row verticaly centered images in square columns -->
+
+                                <button class="square" id="Java" style="background-color:#3F51B5" data-toggle="modal" data-target="#JavaModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        Java
+                                    </div>
+                                </button>
+                                <button class="square" id="Sql" style="background-color:#00BCD4" data-toggle="modal" data-target="#SqlModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        Sql
+                                    </div>
+                                </button>
+                                <button class="square" id="C# 1" style="background-color:#B71C1C" data-toggle="modal" data-target="#CpModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        C#
+                                    </div>
+                                </button>
+
+                                <!-- 3rd row responsive images in background with centered content -->
+
+                                <button class="square" id="Java 1" style="background-color:#FF9800" data-toggle="modal" data-target="#JavaConModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%; padding-left:10%;color:white;font-weight:bold">
+                                        Java
+                                    </div>
+                                </button>
+                                <button class="square" id="Android" style="background-color:#4CAF50" data-toggle="modal" data-target="#AndroidModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%;color:white;font-weight:bold">
+                                        Android
+                                    </div>
+                                </button>
+                                <button class="square" id="Java 2" style="background-color:#FF9800" data-toggle="modal" data-target="#JavaFileModal">
+                                    <div class="content" style="padding-top:40% ; padding-left:10%;color:white;font-weight:bold">
+                                        Java
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Mvc-->
+    <div class="modal fade" id="MvcModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Asp.net Mvc Final school Project</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/Mvc.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Final project-<div style="display:inline-block;color:red">Buy Gift card</div>.
+                    <br />
+                    The site provides a solution for people who don't have time to go to the Mall and Buy Gift card.
+                    <br />
+                    By using the website,
+                    <br />
+                    you can purchase a Gift card and send it by email through the site , you can also attach a greeting (site offers record,drawing,text greeting type).
+                    <br />
+                    The project consists of two interfaces:
+                    <br />
+                    # Client interface.
+                    <br />
+                    # Store interface.
+                    <br />
+                    The project was written in Asp.net MVC , C# ,Entity framework , Jquery , javascript , Angularjs , Ajax , css , Bootstrap .
+                    <br />
+                    The project I wrote and did client side and the server.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/0x3ysgq94lhecpq/AAAJRwlzRBBVOIO00-nXw9Eya?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal CModal-->
+    <div class="modal fade" id="CModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">C#</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/GuessNumber.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    A simple C# Wpf project,
+                    <br />
+                    You need to guess 4 digit number,the application counts your trying.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/q7pu6hfbb10xp4b/AAD3QacC6-O7BwjAJvRMQ0xVa?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal JqueryModal-->
+    <div class="modal fade" id="JqueryModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Jquery</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/Checkers.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Checkers Game build in jquery , With animation.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/gfhgwx9uc48cbre/AAA4jCC0F45V5EUDdUkXS2K1a?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal JavaModal-->
+    <div class="modal fade" id="JavaModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Java</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/GuessnumJava.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Mastermind game build in Java.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/g7qdhs2g0p6tikk/AABB1_5Ki-jhGpCJ30Fvft65a?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal SqlModal-->
+    <div class="modal fade" id="SqlModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Sql</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/Sql.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Sql project,
+                    <br />
+                    Demo of Social network database.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/vwmnoui17lx1dd9/AABGSPztPjOS0up_OSyf7xxZa?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal CpModal-->
+    <div class="modal fade" id="CpModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">C#</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/Pirate.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    C# Game , pirate Chasing after you.
+                    <br />
+                    3 Level of hardest.
+                    <br />
+                    If the pirate touch each other , you win the game.
+                    <br />
+                    If the pirate touch you ,you lose the game.
+                    <br />
+                    The aim of the game is to eat as many cherry .
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/035y5hanjp5m2jq/AACRqRBr9KIGf-9aTSk5M5TSa?dl=0  ">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal JavaConModal-->
+    <div class="modal fade" id="JavaConModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Java</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/Untitled.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Java app - money converter.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/rfbxd290hs8fthm/AABKofu0Y7H4_I0x4IkcOVp5a?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal AndroidModal-->
+    <div class="modal fade" id="AndroidModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Android</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/and.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Simple memory Card Game.
+                    <br />
+                    <a target="_blank" href="https://www.dropbox.com/sh/r14c60lo8w9aduu/AADCd9Njp-nkPOmBWJXN74lna?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal JavaFileModal-->
+    <div class="modal fade" id="JavaFileModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Java</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="NewFolder1/FileJob.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <br />
+                    Java file project.
+                    <br />
+                    The app gives you the following options:
+                    <ul style="margin:0 0 0">
+                        <li>Create folder.</li>
+                        <li>Create Doc file,txt file.</li>
+                        <li>Edit these files , delete these  files , Show these files.</li>
+                        <li>Word file - after closing the file , the app automatically add * at the beginning and end Off every line.</li>
+                        <li>Txt file - after closing the file , the app automatically edit the file to first line 8 words seconde line 10 words .</li>
+                    </ul>
+                    <a target="_blank" href="https://www.dropbox.com/sh/zpwm39pqgr7lduv/AAD3XMY-FtYywpbtuqRZKZD8a?dl=0">
+                        Link to source code
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="modal fade" id="ContactMe" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <!-- Modal contant me-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align:center;font-weight:bold">Contact me</h4>
+                </div>
+                <div class="modal-body" style="font-family: 'Noto Sans', sans-serif;">
+                    Mail: Aharon.vish@gmail.com
+                    <br />
+                    Phone: 0528886221
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text-center contact-me">
+            Contact me
+        </div>
+        <div class="text-center">
+            <a class="fa fa-envelope-o social-icon" data-toggle="modal" data-target="#ContactMe"></a>
+            <a class="fa fa-linkedin social-icon" href="https://il.linkedin.com/in/aharon-vishinsky-06b035100" target="_blank"></a>
+            <a class="fa fa-facebook social-icon" href="https://www.facebook.com/aharon.vishinski?fref=ts" target="_blank"></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
